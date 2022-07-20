@@ -39,6 +39,10 @@ body {
     color: aliceblue;
     padding: 10px 20px;
     border: none;
+    transition: transform 2s ease-in-out;
+}
+.watch-btn:hover{
+        transform: translate(50px) rotate(360deg);
 }
 
 .fa-angle-right {
